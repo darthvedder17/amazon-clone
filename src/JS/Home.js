@@ -1,9 +1,100 @@
 import React from 'react'
 import '../CSS/Home.css';
+import Product from './Product';
 function Home() {
 	return (
 		<div className='home'>
 			<img className = 'main__body' src = "https://store-images.s-microsoft.com/image/apps.16285.14618985536919905.552c0017-6644-49a8-8467-8f7b34ce0428.30ad6b05-16d9-4d5e-a242-43107708a16a?mode=scale&q=90&h=1080&w=1920" />
+		
+
+		<div className= "home__row">	
+			<Product 
+			id ='123123123'
+			title='Gomu-Gomu Gatling Gun Second Gear Luffy Figurine'
+			price = {11}
+			rating = {5}
+			image = 'https://ae01.alicdn.com/kf/Hef9116bdd44f466ea01c826098a56e42y/31CM-Anime-One-Piece-figure-luffy-Gomu-Gomu-no-Gatling-GK-Laser-gun-Monkey-D-Luffy.jpg'
+
+			/>
+
+
+
+			<Product 
+			id ='123123124'
+			title='Not Giving a Shit Deadpool Figurine'
+			price = {14}
+			rating = {4}
+			image ='data:image/jpeg;base64,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'
+
+			/>
+
+			<Product 
+			id ='123123125'
+			title='The CPR Episode Dwight Schrute Figurine : Best in the Market'
+			price = {20}
+			rating = {5}
+			image = 'https://d1f7geppf3ca7.cloudfront.net/origin/635641/dwight-with-cpr-mask-2_1576764128866.jpg'
+
+
+			/>
+
+
+
+
+		
+
+		</div>
+
+
+
+		<div className= "home__row">	
+			<Product 
+			id ='123123123'
+			title='Pokemon BulbaSaur First Form Figurine : Pokemon Tales'
+			price = {15}
+			rating = {5}
+			image = 'https://imaginaire.com/fr/images/POK%C3%89MON-FIGURINE-POP-EN-VINYLE-DE-BULBIZARRE-10-CM-453__0889698362375.JPG'
+			/>
+
+
+
+			<Product 
+			id ='123123124'
+			title='Pokemon Rattatta First Form Figurine : Pokemon Tales'
+			price = {17}
+			rating = {4}
+			image = 'https://cdn.shopify.com/s/files/1/0706/6127/products/Rattata595_600x.jpg?v=1592851331'
+			/>
+
+
+
+
+
+		
+
+		</div>
+
+
+		<div className= "home__row">	
+			<Product 
+			id ='123123123'
+			title='Random Minecraft Guy with a Pickaxe : Super Sale on Item'
+			price = {7.99}
+			rating = {5}
+			image = 'https://images-na.ssl-images-amazon.com/images/I/41Q9drk-lGL._SY355_.jpg'
+
+			/>
+
+
+		
+
+		</div>
+
+
+
+
+
+
 		</div>
 	)
 }
