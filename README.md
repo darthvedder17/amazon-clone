@@ -1,3 +1,8 @@
+The firebase deployment is done on the following url link : 
+
+https://clone-a13ee.web.app/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
