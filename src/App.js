@@ -20,7 +20,7 @@ function App() {
 
 
           <Route path='/login'>
-            <h1>Login</h1>
+            <Login />
           </Route>
 
 

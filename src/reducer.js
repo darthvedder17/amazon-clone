@@ -5,6 +5,11 @@ user:null
 
 };
 
+
+export const getBasketTotal = (basket) =>
+
+basket?.reduce((amount,item) => item.price +amount,0);
+
 const reducer = (state,action) =>{
 
 console.log(action);	
@@ -17,8 +22,10 @@ case "ADD_TO_BASKET" :
 		};
 
 case "REMOVE_FROM_BASKET":
-		
+		//The basket is cloned here
 		let newBasket  = [...state.basket];
+
+		// Find the index of the item and splice/remove it if found otherwise return a warning
 		const index = state.basket.findIndex((basketItem) => basketItem.id===action.id)
 		if(index>=0){
 

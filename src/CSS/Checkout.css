@@ -8,9 +8,19 @@ border-bottom: 1px solid lightgray;
 
 
 .checkout__ad{
-margin-left: 350px;
+margin-left: 200px;
 padding-top: 4px;
 max-height: 70px;
+
+
+}
+
+.checkout{
+
+display: flex;
+padding: 20px;
+background-color: white;
+height: max-content;
 
 
 }

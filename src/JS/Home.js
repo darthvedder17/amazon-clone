@@ -49,7 +49,7 @@ function Home() {
 
 		<div className= "home__row">	
 			<Product 
-			id ='123123126'
+			id ='123123123'
 			title='Pokemon BulbaSaur First Form Figurine : Pokemon Tales'
 			price = {15}
 			rating = {5}
@@ -59,7 +59,7 @@ function Home() {
 
 
 			<Product 
-			id ='123123127'
+			id ='123123124'
 			title='Pokemon Rattatta First Form Figurine : Pokemon Tales'
 			price = {17}
 			rating = {4}
@@ -77,9 +77,9 @@ function Home() {
 
 		<div className= "home__row">	
 			<Product 
-			id ='123123128'
+			id ='123123123'
 			title='Random Minecraft Guy with a Pickaxe : Super Sale on Item'
-			price = {7.99}
+			price = {11}
 			rating = {5}
 			image = 'https://images-na.ssl-images-amazon.com/images/I/41Q9drk-lGL._SY355_.jpg'
 
